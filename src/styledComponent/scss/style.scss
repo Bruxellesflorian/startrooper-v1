@@ -1,0 +1,83 @@
+
+@keyframes animStar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@function multiple-box-shadow($n) {
+  $value: '#{random(2000)}px #{random(2000)}px #FFF';
+  @for $i from 2 through $n {
+    $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF';
+  }
+
+  @return unquote($value);
+}
+
+@mixin star-mixin($radius, $boxShadow, $moveSpeed) {
+  width: $radius;
+  height: $radius;
+  background: transparent;
+  box-shadow: $boxShadow;
+  animation: animStar $moveSpeed linear infinite;
+  transform-origin: 50vw 100vh;
+  transition: 1.2s linear;
+  transition-property: opacity;
+
+  &:after {
+    content: ' ';
+    position: absolute;
+    width: $radius;
+    height: $radius;
+    background: transparent;
+    box-shadow: $boxShadow;
+    z-index: -1;
+  }
+}
+
+$shadows-small: multiple-box-shadow(600);
+$shadows-medium: multiple-box-shadow(400);
+$shadows-big: multiple-box-shadow(120);
+
+
+
+html,
+body {
+  height: 100%;
+  background: radial-gradient(#231b35 0%, #1c1012 100%);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  transition: 0.8s linear;
+
+  &::after {
+    content: '';
+    position: absolute;
+    background: radial-gradient(#a33333aa, transparent);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+#stars {
+  @include star-mixin(1px, $shadows-small, 250s);
+
+}
+
+#stars2 {
+  @include star-mixin(2px, $shadows-medium, 450s);
+}
+
+#stars3 {
+  @include star-mixin(5px, $shadows-big, 375s);
+}
+
+
+

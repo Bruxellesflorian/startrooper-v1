@@ -1,0 +1,88 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap'); */
+
+
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@font-face {
+  font-family: "pixels0";
+  src: url("./styledComponent/font/Minecraft.ttf") format("truetype");
+}
+@font-face {
+  font-family: "pixels1";
+  src: url("./styledComponent/font/PublicPixel.ttf") format("truetype");
+}
+@font-face {
+  font-family: "pixels2";
+  src: url("./styledComponent/font/rainyhearts.ttf") format("truetype");
+}
+@font-face {
+  font-family: "pixels3";
+  src: url("./styledComponent/font/retro_computer_personal_use.ttf") format("truetype");
+}
+@font-face {
+  font-family: "pixels4";
+  src: url("./styledComponent/font/I-pixel-u.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TitleFont";
+  src: url("./styledComponent/font/cyberspace.ttf") format("truetype");
+}
+html{
+  /* font-family: 'Orbitron'; */
+  /* font-family: "pixels0"; */
+  /* font-family: "pixels1"; */
+  /* font-family: "pixels2"; */
+  /* font-family: "pixels3"; */
+  /* font-family: "pixels4"; */
+  text-shadow: rgb(0, 0, 0) 2px 5px;
+
+  /* letter-spacing: 5px; */
+  color: white;
+}
+.TitleSTARTROOPER{
+  font-family: "TitleFont",arial,sans-serif;
+  text-shadow: rgb(23, 10, 136) 2px 5px;
+}
+.regroupAll{
+  overflow: auto;
+  height: 100vh;
+}
+
+

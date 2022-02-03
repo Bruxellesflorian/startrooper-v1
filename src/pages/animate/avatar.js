@@ -9,7 +9,7 @@ const AvatarAnimate = (avatar) => {
       <AvatarAnimateSprite
         style={{ height: '50px', width: '90px' }}
         className={`my-element__class--style`}
-        image={`image/soldierSprite/${avatar.avatar}`}
+        image={`image\ ${avatar.avatar}`}
         widthFrame={64}
         heightFrame={60}
         steps={55}

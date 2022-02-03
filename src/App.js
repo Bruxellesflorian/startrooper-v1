@@ -118,6 +118,7 @@ const App = () => {
                 Spend one night
               </Button>
             )}
+      
           </div>
         </PosButton>
       </div>

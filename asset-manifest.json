@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/startrooper-v1/static/css/main.02e62175.chunk.css",
+    "main.js": "/startrooper-v1/static/js/main.0cf85df6.chunk.js",
+    "main.js.map": "/startrooper-v1/static/js/main.0cf85df6.chunk.js.map",
+    "runtime-main.js": "/startrooper-v1/static/js/runtime-main.3fbd29d2.js",
+    "runtime-main.js.map": "/startrooper-v1/static/js/runtime-main.3fbd29d2.js.map",
+    "static/js/2.91a1bf41.chunk.js": "/startrooper-v1/static/js/2.91a1bf41.chunk.js",
+    "static/js/2.91a1bf41.chunk.js.map": "/startrooper-v1/static/js/2.91a1bf41.chunk.js.map",
+    "index.html": "/startrooper-v1/index.html",
+    "static/css/main.02e62175.chunk.css.map": "/startrooper-v1/static/css/main.02e62175.chunk.css.map",
+    "static/js/2.91a1bf41.chunk.js.LICENSE.txt": "/startrooper-v1/static/js/2.91a1bf41.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/startrooper-v1/static/media/retro_computer_personal_use.d3aa5fc0.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fbd29d2.js",
+    "static/js/2.91a1bf41.chunk.js",
+    "static/css/main.02e62175.chunk.css",
+    "static/js/main.0cf85df6.chunk.js"
+  ]
+}

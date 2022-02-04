@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { connect, useSelector } from 'react-redux'
-import { Display_soldier , Soldier_box, Avatar, Pv, Atk} from '../styledComponent/soldier.style'
+import { useSelector } from 'react-redux'
+import { Display_soldier , Soldier_box, Pv, Atk} from '../styledComponent/soldier.style'
 import { GiShoulderArmor , GiGunshot} from "react-icons/gi";
 import  AvatarAnimate from './animate/avatar'
 import Detail_soldier from './detail_soldier';
+import deadSoldierAvatar from '../sprites/soldierAvatar/dead.png'
+import DeadOfSoldierAvatar from 'react-responsive-spritesheet'
+
 
 
 const SoldierList = () => {
@@ -63,7 +66,18 @@ let id = 0
                     />
                   </div>
                 :
-                <Avatar style={{backgroundImage: `url(image/dead.gif)`}}/>}
+                <DeadOfSoldierAvatar
+                style={{ height: '50px', width: '90px' }}
+                className={`my-element__class--style`}
+                image={deadSoldierAvatar}
+                widthFrame={64}
+                heightFrame={60}
+                steps={20}
+                fps={9}
+                autoplay={true}
+                loop={true}
+              />
+                }
                 
                 <div>{data.soldier.name}</div>
                 <Pv>

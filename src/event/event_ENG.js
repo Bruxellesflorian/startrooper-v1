@@ -1,3 +1,13 @@
+import grotte from '../sprites/event/grotte.png'
+import atk2 from '../sprites/event/atk2.png'
+import atk4 from '../sprites/event/atk4.png'
+import combat from '../sprites/event/combat.png'
+import meteorite from '../sprites/event/meteorite.png'
+import paysage from '../sprites/event/paysage.png'
+import biere from '../sprites/event/biere.png'
+
+
+
 export const list_event = [
   {
     //-----------------------------------------------------------------------------------------
@@ -26,7 +36,7 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 0 },
     population: { name: 'civil', value: 0 },
-    imageEvent : {img  : "image/event/grotte.png"}
+    imageEvent : {img  : grotte}
     //-----------------------------------------------------------------------------------------
   },
   {
@@ -56,7 +66,7 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 0 },
     population: { name: 'civil', value: 1 },
-    imageEvent : {img  : "image/event/meteorite.png"}
+    imageEvent : {img  : meteorite}
 
     //-----------------------------------------------------------------------------------------
   },
@@ -89,7 +99,7 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 0 },
     population: { name: 'civil', value: 0 },
-    imageEvent : {img  : "image/event/meteorite.png"}
+    imageEvent : {img  : meteorite}
 
     //-----------------------------------------------------------------------------------------
   },
@@ -120,7 +130,7 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 0 },
     population: { name: 'civil', value: 0 },
-    imageEvent : {img  : "image/event/grotte.png"}
+    imageEvent : {img  : grotte}
 
     //-----------------------------------------------------------------------------------------
   },
@@ -151,7 +161,7 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 0 },
     population: { name: 'civil', value: 0 },
-    imageEvent : {img  : "image/event/grotte.png"}
+    imageEvent : {img  : grotte}
 
     //-----------------------------------------------------------------------------------------
   },
@@ -184,7 +194,7 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 0 },
     population: { name: 'civil', value: 0 },
-    imageEvent : {img  : "image/event/meteorite.png"}
+    imageEvent : {img  : meteorite}
 
     //-----------------------------------------------------------------------------------------
   }
@@ -218,7 +228,7 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 1 },
     population: { name: 'civil', value: 0 },
-    imageEvent : {img  : "image/event/paysage.png"}
+    imageEvent : {img  : paysage}
 
     //-----------------------------------------------------------------------------------------
   }
@@ -252,7 +262,7 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 3 },
     population: { name: 'civil', value: 0 },
-    imageEvent : {img  : "image/event/paysage.png"}
+    imageEvent : {img  : paysage}
 
     //-----------------------------------------------------------------------------------------
   }
@@ -284,7 +294,7 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 1 },
     population: { name: 'civil', value: 0 },
-    imageEvent : {img  : "image/event/grotte.png"}
+    imageEvent : {img  : grotte}
 
     //-----------------------------------------------------------------------------------------
   }
@@ -318,7 +328,7 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 0 },
     population: { name: 'civil', value: 0 },
-    imageEvent : {img  : "image/event/meteorite.png"}
+    imageEvent : {img  : meteorite}
 
     //-----------------------------------------------------------------------------------------
   }
@@ -353,7 +363,7 @@ export const list_event = [
     soldiers: { name: 'soldier', value: 0 },
     population: { name: 'civil', value: 0 },
     upatk : {name : "point d'attaques ", value : 4},
-    imageEvent : {img  : "image/event/atk4.png"}
+    imageEvent : {img  : atk4}
 
     //-----------------------------------------------------------------------------------------
   }
@@ -387,7 +397,7 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 1 },
     population: { name: 'civil', value: 0 },
-    imageEvent : {img  : "image/event/combat.png"}
+    imageEvent : {img  : combat}
 
     //-----------------------------------------------------------------------------------------
   }
@@ -421,7 +431,7 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 0 },
     population: { name: 'civil', value: 0 },
-    imageEvent : {img  : "image/event/combat.png"},
+    imageEvent : {img  : biere},
     heal : { name : "heal" }
 
 
@@ -457,10 +467,8 @@ export const list_event = [
     ],
     soldiers: { name: 'soldier', value: 1 },
     population: { name: 'civil', value: 0 },
-    imageEvent : {img  : "image/event/combat.png"},
-    heal : { name : "heal" }
-
-
+    imageEvent : {img  : biere},
+  
     //-----------------------------------------------------------------------------------------
   }
   

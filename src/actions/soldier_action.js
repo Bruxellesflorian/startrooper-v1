@@ -1,3 +1,11 @@
+import soldier0 from '../sprites/soldierAvatar/soldier0.png'
+import soldier1 from '../sprites/soldierAvatar/soldier1.png'
+import soldier2 from '../sprites/soldierAvatar/soldier2.png'
+import soldier3 from '../sprites/soldierAvatar/soldier3.png'
+import soldier4 from '../sprites/soldierAvatar/soldier4.png'
+import soldier5 from '../sprites/soldierAvatar/soldier5.png'
+import soldier6 from '../sprites/soldierAvatar/soldier6.png'
+
 let idS = 0
 export const createSoldier = (name,stat,avatar, pos) => ({
   type: "ADD_SOLDIER_LIST",
@@ -54,7 +62,7 @@ export const decrementSoldier = () =>({
 
   }
 
-  const avatarList = ["soldier0.png","soldier1.png","soldier2.png","soldier3.png","soldier4.png","soldier5.png","soldier6.png"]
+const avatarList = [soldier0,soldier1,soldier2,soldier3,soldier4,soldier5,soldier6]
 
 export const avatar = () => {
   return avatarList[Math.floor(Math.random()*avatarList.length)]

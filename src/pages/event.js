@@ -6,9 +6,9 @@ import { addModRessource , lowerModRessource , addDay} from '../actions/ressourc
 import { addModGoldWorker, addModIronWorker, addModGASWorker, lowerModGoldWorker , lowerModIronWorker , lowerModGASWorker  } from '../actions/worker_action'
 import { createSoldier, create_name, decrementSoldier, deleteSoldier, avatar ,damagedSoldier } from '../actions/soldier_action'
 import EventAnimate from './animate/eventAnimate'
-
 import { increment_population , decrement_population, increment_population_per_day } from '../actions/population_action'
 import { upAliens } from '../actions/alien_attack_action'
+
 
 import {
   Display_all_event,
@@ -111,16 +111,13 @@ const Event = () => {
       
     }
 
-    if(quest_event.heal !== undefined){
-      sentence = "Santé restaurer"
+    if(quest_event.heal !== undefined){                          // Gestion de l'événement Heal soldier
+      sentence = "La santé de vos soldat est restauré"           // ajout de phrase de sentence
       for (let i = 0; i < soldierList.length; i++) {
         let result = soldierList[i].soldier.stat.pv = soldierList[i].soldier.stat.pvMax
         dispatch(damagedSoldier([i],result))
       }
     }
-
-
-
 
 
 

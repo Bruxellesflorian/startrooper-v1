@@ -16,7 +16,7 @@ const Display = styled.div`
 const Footer = () =>{
     return(
         <Display>
-            Florian Bertchi ©  ( v 0.1 )
+            Florian Bertchi ©  ( v 0.2 )
         </Display>
     )
 }

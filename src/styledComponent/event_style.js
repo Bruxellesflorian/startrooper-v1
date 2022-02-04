@@ -1,6 +1,14 @@
 import styled from 'styled-components'
 
 export const Display_all_event = styled.div`
+  @media (max-width: 735px) {
+      div{
+    font-size: 12px;
+    padding: 1%;
+
+}
+
+  }
 
     position: absolute;
     top: 0;

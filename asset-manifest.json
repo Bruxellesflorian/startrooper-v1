@@ -1,21 +1,36 @@
 {
   "files": {
-    "main.css": "/startrooper-v1/static/css/main.02e62175.chunk.css",
-    "main.js": "/startrooper-v1/static/js/main.0cf85df6.chunk.js",
-    "main.js.map": "/startrooper-v1/static/js/main.0cf85df6.chunk.js.map",
+    "main.css": "/startrooper-v1/static/css/main.18c2f3f4.chunk.css",
+    "main.js": "/startrooper-v1/static/js/main.3df40051.chunk.js",
+    "main.js.map": "/startrooper-v1/static/js/main.3df40051.chunk.js.map",
     "runtime-main.js": "/startrooper-v1/static/js/runtime-main.3fbd29d2.js",
     "runtime-main.js.map": "/startrooper-v1/static/js/runtime-main.3fbd29d2.js.map",
-    "static/js/2.91a1bf41.chunk.js": "/startrooper-v1/static/js/2.91a1bf41.chunk.js",
-    "static/js/2.91a1bf41.chunk.js.map": "/startrooper-v1/static/js/2.91a1bf41.chunk.js.map",
+    "static/js/2.fb08caa0.chunk.js": "/startrooper-v1/static/js/2.fb08caa0.chunk.js",
+    "static/js/2.fb08caa0.chunk.js.map": "/startrooper-v1/static/js/2.fb08caa0.chunk.js.map",
     "index.html": "/startrooper-v1/index.html",
-    "static/css/main.02e62175.chunk.css.map": "/startrooper-v1/static/css/main.02e62175.chunk.css.map",
-    "static/js/2.91a1bf41.chunk.js.LICENSE.txt": "/startrooper-v1/static/js/2.91a1bf41.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/startrooper-v1/static/media/retro_computer_personal_use.d3aa5fc0.ttf"
+    "static/css/main.18c2f3f4.chunk.css.map": "/startrooper-v1/static/css/main.18c2f3f4.chunk.css.map",
+    "static/js/2.fb08caa0.chunk.js.LICENSE.txt": "/startrooper-v1/static/js/2.fb08caa0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/startrooper-v1/static/media/retro_computer_personal_use.d3aa5fc0.ttf",
+    "static/media/alienDead.e5d5c005.png": "/startrooper-v1/static/media/alienDead.e5d5c005.png",
+    "static/media/atk2.15897595.png": "/startrooper-v1/static/media/atk2.15897595.png",
+    "static/media/atk4.fbc8b139.png": "/startrooper-v1/static/media/atk4.fbc8b139.png",
+    "static/media/biere.efee9596.png": "/startrooper-v1/static/media/biere.efee9596.png",
+    "static/media/combat.dafc6aad.png": "/startrooper-v1/static/media/combat.dafc6aad.png",
+    "static/media/grotte.94c23398.png": "/startrooper-v1/static/media/grotte.94c23398.png",
+    "static/media/meteorite.bd4d8b51.png": "/startrooper-v1/static/media/meteorite.bd4d8b51.png",
+    "static/media/paysage.68dcf120.png": "/startrooper-v1/static/media/paysage.68dcf120.png",
+    "static/media/soldier0.675414c0.png": "/startrooper-v1/static/media/soldier0.675414c0.png",
+    "static/media/soldier1.709c24e9.png": "/startrooper-v1/static/media/soldier1.709c24e9.png",
+    "static/media/soldier2.e889c882.png": "/startrooper-v1/static/media/soldier2.e889c882.png",
+    "static/media/soldier3.c6c68645.png": "/startrooper-v1/static/media/soldier3.c6c68645.png",
+    "static/media/soldier4.17c5e0bd.png": "/startrooper-v1/static/media/soldier4.17c5e0bd.png",
+    "static/media/soldier5.983c502f.png": "/startrooper-v1/static/media/soldier5.983c502f.png",
+    "static/media/soldier6.5274652a.png": "/startrooper-v1/static/media/soldier6.5274652a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3fbd29d2.js",
-    "static/js/2.91a1bf41.chunk.js",
-    "static/css/main.02e62175.chunk.css",
-    "static/js/main.0cf85df6.chunk.js"
+    "static/js/2.fb08caa0.chunk.js",
+    "static/css/main.18c2f3f4.chunk.css",
+    "static/js/main.3df40051.chunk.js"
   ]
 }
